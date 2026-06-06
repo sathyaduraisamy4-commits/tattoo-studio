@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="sathya" content="width=device-width, initial-scale=1.0"/>
+    <meta name="google-site-verification" content="wbw6Jc6kPp-FckdnxvuH8vox_TuCljXd8dfbG3kAPxQ" />
+  <title>sathya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0a0a;
+      --fg: #f0ece3;
+      --accent: #e8c547;
+      --muted: #3a3a3a;
+      --card: #141414;
+    }
+<head>
+<title>digital marketing</title>
+
+<link rel="cononical"
+href="https://website.com/digital marketing"/>
+</head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": {
+    "@type": "Question",
+    "name": "digital marketing coures nearby",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "we officering are thngs everywhere"
+    }
+  }<meta name="google-site-verification" content="QR2oQ345BwqZgap_jHEWBmJRKV1XNdUTobYvjIQEIK0" />
+}
+</script>
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "product",
+  "brand": "apply",
+  "name": "iphone",
+  "image": "https://www.instagram.com/p/DXI9xNfGEww/",
+  "description": "nothubsgv",
+  "aggregateRating": {
+    "@type": "aggregateRating",
+    "ratingValue": "4",
+    "reviewCount": "300"
+  }
+}
+ </script>
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.4rem 4rem;
+      background: rgba(10,10,10,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--muted);
+    }
+
+    .logo {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.4rem;
+      letter-spacing: -0.03em;
+      color: var(--accent);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2.5rem;
+    }
+
+    nav ul a {
+      text-decoration: none;
+      color: var(--fg);
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+
+    nav ul a:hover { opacity: 1; color: var(--accent); }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 0 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 60% at 70% 50%, rgba(232,197,71,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+    }
+
+    .hero-content { position: relative; max-width: 700px; }
+
+    .hero-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 0.3rem 0.8rem;
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeUp 0.6s 0.2s forwards;
+    }
+
+    h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(3rem, 7vw, 6rem);
+      font-weight: 800;
+      line-height: 1.0;
+      letter-spacing: -0.04em;
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      animation: fadeUp 0.6s 0.4s forwards;
+    }
+
+    h1 em {
+      font-style: normal;
+      color: var(--accent);
+    }
+
+    .hero-desc {
+      font-size: 1.1rem;
+      opacity: 0.6;
+      max-width: 480px;
+      margin-bottom: 3rem;
+      animation: fadeUp 0.6s 0.6s forwards;
+      opacity: 0;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      opacity: 0;
+      animation: fadeUp 0.6s 0.8s forwards;
+    }
+
+    .btn {
+      padding: 0.85rem 2rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: var(--bg);
+      font-weight: 700;
+      border: none;
+    }
+
+    .btn-primary:hover { background: #f0d060; transform: translateY(-2px); }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--fg);
+      border: 1px solid var(--muted);
+    }
+
+    .btn-ghost:hover { border-color: var(--fg); }
+
+    /* ABOUT */
+    section { padding: 7rem 4rem; }
+
+    .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.2rem;
+    }
+
+    h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .about-text p {
+      opacity: 0.65;
+      margin-bottom: 1.2rem;
+      font-size: 1.05rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .stat {
+      border-left: 2px solid var(--accent);
+      padding-left: 1.2rem;
+    }
+
+    .stat-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      opacity: 0.5;
+      letter-spacing: 0.05em;
+      margin-top: 0.3rem;
+    }
+
+    /* SERVICES */
+    #sathya { background: var(--card); }
+
+    .services-header { text-align: center; margin-bottom: 4rem; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--bg);
+      border: 1px solid var(--muted);
+      padding: 2.5rem;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+    }
+
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+      letter-spacing: -0.02em;
+    }
+
+    .card p { font-size: 0.95rem; opacity: 0.55; line-height: 1.7; }
+
+    /* CONTACT */
+    .contact-inner {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .contact-inner p {
+      opacity: 0.6;
+      margin-bottom: 2.5rem;
+      font-size: 1.05rem;
+    }
+
+    input, textarea {
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--muted);
+      color: var(--fg);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input:focus, textarea:focus { border-color: var(--accent); }
+
+    textarea { height: 140px; resize: vertical; }
+
+    .submit-btn {
+      width: 100%;
+      padding: 1rem;
+      background: var(--accent);
+      color: var(--bg);
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .submit-btn:hover { background: #f0d060; transform: translateY(-2px); }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--muted);
+      padding: 2rem 4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      opacity: 0.4;
+    }
+
+    /* ANIMATION */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav { padding: 1rem 1.5rem; }
+      nav ul { gap: 1.2rem; }
+      .hero, section { padding: 5rem 1.5rem; }
+      .about-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .cards { grid-template-columns: 1fr; }
+      footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">SITE.</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Welcome to my site</span>
+      <h1>Build Things <em>That Matter</em></h1>
+      <p class="hero-desc">A clean, modern website starter. Customize it, make it yours, and ship something you're proud of.</p>
+      <div class="btn-group">
+        <a href="#services" class="btn btn-primary">Explore</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="section-label">About</p>
+        <h2>Who We Are</h2>
+        <p>We're a small team with big ideas. We build digital experiences that are fast, accessible, and beautiful — without any of the bloat.</p>
+        <p>Whether it's a personal project or a full product, we believe every pixel should have a purpose.</p>
+        <a href="#contact" class="btn btn-ghost" style="display:inline-block; margin-top:1.5rem;">Let's Talk →</a>
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">120</div>
+          <div class="stat-label">Projects Done</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">98%</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">24/7</div>
+          <div class="stat-label">Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="services-header">
+      <p class="section-label">What We Do</p>
+      <h2>Our Services</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Web Development</h3>
+        <p>Fast, responsive websites built with modern tools and best practices. No templates — just clean code.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎨</div>
+        <h3>UI/UX Design</h3>
+        <p>Interfaces that feel natural and look stunning. We sweat the details so your users don't have to.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚀</div>
+        <h3>Launch Strategy</h3>
+        <p>From idea to live product — we help you plan, build, and ship with confidence and speed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <p class="section-label">Contact</p>
+      <h2>Say Hello</h2>
+      <p>Have a project in mind? Drop us a message and we'll get back to you within 24 hours.</p>
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email" />
+      <textarea placeholder="Your Message..."></textarea>
+      <button class="submit-btn" onclick="alert('Message sent! We\'ll be in touch.')">Send Message</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 SITE. All rights reserved.</span>
+    <span>Made with ♥</span>
+  </footer>
+
+</body>
+</html>
